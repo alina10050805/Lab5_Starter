@@ -10,7 +10,7 @@ function init() {
   const button = document.querySelector('button');
   const text = document.getElementById('text-to-speak');
   const smilingImg = document.querySelector('img');
-
+ 
   let voices = []
 
   voices = synth.getVoices();
@@ -32,7 +32,7 @@ function init() {
       smilingImg.src = 'assets/images/smiling-open.png';
       smilingImg.alt = 'Smiling Open face';
     });
-    
+
     for(let i=0; i<voices.length; i++)
     {
       if(voices[i].name === select.value)
