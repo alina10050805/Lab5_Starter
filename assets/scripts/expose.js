@@ -6,12 +6,12 @@ function init() {
   // TODO
   const img = new Image();
   var audioFile;
-
+ 
   const hornSelect = document.getElementById('horn-select');
   const volume = document.getElementById('volume');
 
   const hide = document.getElementsByClassName("hidden");
-  
+
   const audio = document.querySelector("audio");
   const hornImage = document.querySelector("#expose > img");
   const volumeIcon = document.querySelector("#volume-controls > img");
